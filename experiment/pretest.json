@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "If two inputs are active on a priority encoder, which will be coded on the output?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The higher value",
+        "b": "The lower value",
+        "c": "Neither of the inputs",
+        "d": "Depends on the implementation"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What will be the logic of the wires after passing through a junction having SA0 fault?",
+      "answers": {
+        "a": "None of them will be at logic 0",
+        "b": "One of them will be at logic 0",
+        "c": "All of them will be at logic 0",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "For 4-input priority encoder how many input combinations are possible?",
+      "answers": {
+        "a": "2",
+        "b": "4",
+        "c": "8",
+        "d": "16"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "A priority encoder converts the given decimal input into ______________ representation.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "octal",
+        "b": "binary",
+        "c": "hexadecimal",
+        "d": "no conversion takes place"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "A priority encoder is a ______________.",
+      "answers": {
+        "a": "Sequential Circuit",
+        "b": "Combinational Circuit",
+        "c": "Logic Circuit",
+        "d": "Both b and c"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
     }
   ]
 }
