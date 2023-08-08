@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which of the given statements are correct about a stuck-at fault model ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It is used to mimic manufacturing defect within a circuit",
+        "b": "Individual signals can be stuck at logical '0' or '1'",
+        "c": "They can always be detected in a circuit",
+        "d": "Both a and b"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Can an encoder be a transducer?",
+      "answers": {
+        "a": "Yes",
+        "b": "No",
+        "c": "May or may not be",
+        "d": "Both are not even related slightly"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Stuck-At 0 Fault at a particular point in a circuit can be implemented using ______________.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "OR gate",
+        "b": "NOT gate",
+        "c": "AND gate",
+        "d": "XNOR gate"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "advanced"
+    },
+    {
+      "question": "The number of OR gates used in a 4-input priority encoder is ______________.",
+      "answers": {
+        "a": "5",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What happens to the logic of a wire initially at logic 1 when passing through two SA0 faults?",
+      "answers": {
+        "a": "Becomes 0 after the first SA0 fault and remains 0 after the second SA0 fault",
+        "b": "Remains 1 after both SA0 faults",
+        "c": "Changes to 0 after the first SA0 fault and again changes to 1 after the second SA0 fault",
+        "d": "Remains 1 after the first SA0 fault and changes to 0 after the second SA0 fault"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
   ]
 }
