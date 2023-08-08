@@ -16,7 +16,7 @@ A 4-input Priority Encoder takes one of 4 inputs and produces 2 outputs correspo
 In this circuit, our priority order is D3, D2, D1, D0. So if D3 is high, then whatever be the value of D2, D1 and D0, O(0) and O(1) will output high. Similarly if D3 is low and D2 is high, then O(1) is high and O(0) is low. If D3 and D2 are low, and D1 is high, O(1) is low and O(0) is high. When D3, D2 and D1 are low, and D0 is high, O(0) and O(1) are both low. In all these cases, V is high and becomes low only if all of the inputs are low simultaneously. This is summarized in the form of the truth table given below.
 
 <center>
-<table class="table table-bordered">
+<table >
               <thead>
                 <tr>
                   <th scope="col">D3</th>
@@ -96,7 +96,7 @@ A stuck-at fault (SAF) is used to mimic a manufacturing defect in circuits and d
 The input combinations given below along with the positions where the fault is detected give us the corresponding faulty outputs: O(1)f, O(0)f and Vf
 
 <center>
-<table class="table table-bordered">
+<table >
                 <thead>
                   <tr>
                     <th scope="col">D3</th>
