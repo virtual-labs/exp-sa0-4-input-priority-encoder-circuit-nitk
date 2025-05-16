@@ -13,7 +13,7 @@
         "a": "",
         "b": "",
         "c": "",
-        "d": ""
+        "d": "The stuck-at fault model is used to simulate manufacturing defects where individual signals are stuck at either logical '0' or '1', but detection may not always be guaranteed in all circuits."
       },
       "correctAnswer": "d",
       "difficulty": "intermediate"
@@ -27,7 +27,7 @@
         "d": "Both are not even related slightly"
       },
       "explanations": {
-        "a": "",
+        "a": " An encoder can be a transducer because it converts one form of data (e.g., decimal input) into another form (e.g., binary output), which is the function of a transducer.",
         "b": "",
         "c": "",
         "d": ""
@@ -46,7 +46,7 @@
       "explanations": {
         "a": "",
         "b": "",
-        "c": "",
+        "c": "A Stuck-at-0 fault at a particular point in a circuit can be implemented using an AND gate, as it ensures the output remains at logic 0 when one of the inputs is stuck at 0.",
         "d": ""
       },
       "correctAnswer": "c",
@@ -63,7 +63,7 @@
       "explanations": {
         "a": "",
         "b": "",
-        "c": "",
+        "c": " A 4-input priority encoder typically uses 3 OR gates to combine the necessary input signals and determine the encoded output based on priority.",
         "d": ""
       },
       "correctAnswer": "c",
@@ -78,7 +78,7 @@
         "d": "Remains 1 after the first SA0 fault and changes to 0 after the second SA0 fault"
       },
       "explanations": {
-        "a": "",
+        "a": "A Stuck-at-0 (SA0) fault forces the signal to 0, and once a wire is stuck at 0, it remains 0 even if it passes through additional SA0 faults.",
         "b": "",
         "c": "",
         "d": ""

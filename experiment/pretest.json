@@ -13,7 +13,7 @@
         "a": "",
         "b": "",
         "c": "",
-        "d": ""
+        "d": "The behavior of a priority encoder when two inputs are active can vary depending on the specific implementation and design, so the output may depend on how the encoder is configured."
       },
       "correctAnswer": "d",
       "difficulty": "intermediate"
@@ -29,7 +29,7 @@
       "explanations": {
         "a": "",
         "b": "",
-        "c": "",
+        "c": "A Stuck-at-0 (SA0) fault forces the signal at the junction to remain at logic 0, affecting all the wires connected to that faulted junction.",
         "d": ""
       },
       "correctAnswer": "c",
@@ -47,7 +47,7 @@
         "a": "",
         "b": "",
         "c": "",
-        "d": ""
+        "d": "A 4-input priority encoder has 16 possible input combinations (2^4), as each input can be either 0 or 1, leading to all possible combinations of inputs."
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
@@ -62,7 +62,7 @@
       },
       "explanations": {
         "a": "",
-        "b": "",
+        "b": "A priority encoder converts the given decimal input into binary representation by encoding the highest-priority active input as a binary output.",
         "c": "",
         "d": ""
       },
@@ -81,7 +81,7 @@
         "a": "",
         "b": "",
         "c": "",
-        "d": ""
+        "d": " A priority encoder is a combinational logic circuit that encodes input signals based on priority without the need for memory elements, making it both a combinational and logic circuit."
       },
       "correctAnswer": "d",
       "difficulty": "intermediate"
